@@ -1,0 +1,97 @@
+@font-face {
+	font-family: Barlow-Regular;
+	src: url(../styles/fonts/Barlow-Regular.ttf);
+}
+
+.header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #393c49;
+	color: white;
+}
+
+.title-el {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.title {
+	font-family: Barlow-Medium;
+	display: flex;
+	flex-direction: column;
+	font-style: normal;
+	font-size: 1.75rem;
+	line-height: 4rem;
+}
+.form {
+	color: #fafafa;
+}
+
+.date {
+	font-family: Barlow-Regular;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	color: #e0e6e9;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0.875rem;
+	width: 14rem;
+	height: 3rem;
+	background: #555555;
+	border: 1px solid #393c49;
+	border-radius: 0.5rem;
+}
+
+.form input {
+	width: 10.25rem;
+	height: 1.25rem;
+	font-family: Barlow-Regular;
+	font-size: 0.875rem;
+	line-height: 2rem;
+	background: #555555;
+	border: 0;
+	cursor: pointer;
+	color: #d3dce0;
+	margin-left: -8px;
+}
+
+.form input:-webkit-autofill,
+.form input:-webkit-autofill:hover,
+form input:-webkit-autofill:focus,
+.form input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px #555555 inset !important;
+	outline: none;
+	border: 0;
+	color: #ffffff;
+}
+
+.form input:focus {
+	outline: none;
+	border: 0;
+}
+
+.icon {
+	width: fit-content;
+	height: fit-content;
+	margin-right: 1rem;
+	color: #fafafa;
+	cursor: pointer;
+}
+
+.no-result {
+	width: 682.8px;
+	text-align: center;
+	color: red;
+	font-size: 3rem;
+}

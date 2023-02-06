@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90fe28f3.css",
+    "main.js": "/static/js/main.81bedce3.js",
+    "static/media/Barlow-ExtraBold.ttf": "/static/media/Barlow-ExtraBold.777e300ed64d3d47cc85.ttf",
+    "static/media/Barlow-SemiBold.ttf": "/static/media/Barlow-SemiBold.8247eaeb0799c0acafc6.ttf",
+    "static/media/Barlow-Regular.ttf": "/static/media/Barlow-Regular.e7eb634d040a6f384033.ttf",
+    "static/media/Barlow-Medium.ttf": "/static/media/Barlow-Medium.d4afdc134fc10b739bab.ttf",
+    "static/media/mushroom-pasta.png": "/static/media/mushroom-pasta.836db234c8b267b80443.png",
+    "static/media/fried-rice-omelette.png": "/static/media/fried-rice-omelette.805badeffc31d7ef5859.png",
+    "static/media/shrimp-soup.png": "/static/media/shrimp-soup.dd074bc0b8b93c4c44d7.png",
+    "static/media/healthy-peanut-noodle.png": "/static/media/healthy-peanut-noodle.a98ebbbdb8df38600577.png",
+    "static/media/beef-dumpling.png": "/static/media/beef-dumpling.f986f75ed0a80e7d1d54.png",
+    "static/media/spicy-chicken-noodle.png": "/static/media/spicy-chicken-noodle.798e29961e04ff024a20.png",
+    "static/media/seafood-noodles.png": "/static/media/seafood-noodles.b5893270346556f591d5.png",
+    "static/media/spicy-noodle-omelette.png": "/static/media/spicy-noodle-omelette.1a53c3c99fcc61990bf1.png",
+    "index.html": "/index.html",
+    "main.90fe28f3.css.map": "/static/css/main.90fe28f3.css.map",
+    "main.81bedce3.js.map": "/static/js/main.81bedce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90fe28f3.css",
+    "static/js/main.81bedce3.js"
+  ]
+}

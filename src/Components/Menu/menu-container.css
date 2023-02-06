@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Barlow-SemiBold;
+  src: url(../styles/fonts/Barlow-SemiBold.ttf) format("truetype");
+}
+
+/* do we need this when it is bootstrap???? */
+
+.menu-wrapper {
+  max-width: 100%;
+}
+
+.h2 {
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  font-family: Barlow-SemiBold;
+  margin-left: -1.2rem;
+}
+
+.menu-items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  /* flex-wrap: wrap; */
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  height: 10px;
+}
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.cartItemImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+/* mobilscreen
+@media only screen and (max-width: 400px) {
+  .menu-wrapper {
+    max-width: 100%;
+  }
+  .h2 {
+    text-align: center;
+    position: relative;
+    left: 0px;
+  }
+  .menu-items-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} */
